@@ -1,0 +1,57 @@
+.weather-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .weather-display {
+    text-align: center;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-entry {
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .favorites {
+    margin-top: 20px;
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
