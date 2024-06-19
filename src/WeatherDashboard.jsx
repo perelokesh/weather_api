@@ -18,7 +18,7 @@ const WeatherDashboard = () => {
   }, [lastCity]);
 
   const fetchWeather = async (city) => {
-    const API_KEY = 'cf3d1ff66d9be5200f615dbce2f15965';
+    const API_KEY = process.env.KEY;
     try {
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
       const forecastResponse = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=${unit}&appid=${API_KEY}`);
